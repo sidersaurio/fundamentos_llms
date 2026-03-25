@@ -1,0 +1,14 @@
+name: llms
+channels:
+  - defaults
+dependencies:
+  - cookiecutter
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - ipykernel
+  - gensim
+  - scikit-learn
+prefix: /home/sidersaurio/anaconda3/envs/llms
