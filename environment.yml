@@ -11,4 +11,7 @@ dependencies:
   - ipykernel
   - gensim
   - scikit-learn
+  - pytorch-gpu
+  - einops
+  - xformers
 prefix: /home/sidersaurio/anaconda3/envs/llms
