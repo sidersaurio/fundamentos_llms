@@ -14,4 +14,11 @@ dependencies:
   - pytorch-gpu
   - einops
   - xformers
+  - transformers
+  - python-dotenv
+  - openai
+  - huggingface_hub
+  - peft
+  - trl
+  - bitsandbytes
 prefix: /home/sidersaurio/anaconda3/envs/llms
