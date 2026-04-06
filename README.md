@@ -1,15 +1,47 @@
 # Fundamentos de LLM´s
 
-## 1. Tokenización
-Para este ejercicio necesitaremos crear un entorno de desarrollo para ciencia de datos con conda que tenga los paquetes básicos como numpy, pandas, matplotlib, seaborn...
+Este repositorio contiene los notebooks desarrollados en el curso "Fundamentos de LLMs" de Platzi. A continuación se listan los temas tratados:
+1. Tokenization
+2. Pytorch MLP
+3. GPT2
+4. RoPE
+5. Fine Tunning
+6. LoRa
 
-Luego debemos instalar gensim para importar el modelo LLM pre-entrenado (https://radimrehurek.com/gensim/)
+Para activar el entorno de desarrollo:
+
+```sh
+conda activate llms
+```
+
+Para instalar gensim e importar el modelo LLM pre-entrenado (https://radimrehurek.com/gensim/):
 
 ```sh
 conda install -c conda-forge gensim
 ```
 
-Seguimos con la instalación de Scikit-Learn (https://scikit-learn.org/stable/install.html)
+Para instalar Scikit-Learn (https://scikit-learn.org/stable/install.html):
 ```sh
 conda install -c conda-forge scikit-learn
 ```
+
+Dependencias:
+  - cookiecutter
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - ipykernel
+  - gensim
+  - scikit-learn
+  - pytorch-gpu
+  - einops
+  - xformers
+  - transformers
+  - python-dotenv
+  - openai
+  - huggingface_hub
+  - peft
+  - trl
+  - bitsandbytes
